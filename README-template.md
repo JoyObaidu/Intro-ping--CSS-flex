@@ -27,8 +27,8 @@ Users should be able to:
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 ### Screenshot
-image.png
-image.png
+![image](https://user-images.githubusercontent.com/106669781/224478458-bf8d7727-04f7-488f-9f69-90296c69aba2.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
