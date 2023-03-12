@@ -24,11 +24,11 @@ body{
 .logo{
     padding-bottom: 3rem;
 }
-h2{
+h1{
     font-weight: 300;
     padding-bottom: 1.5rem;
 }
-h2 b{
+h1 b{
     font-weight: 700;
 }
 p{
@@ -56,7 +56,7 @@ form .btn{
     color: #fff;
     cursor: pointer;
 }
-section .image{
+.image{
     width: 100%;
     height: 400px;
     background-image: url("./images/illustration-dashboard.png");
