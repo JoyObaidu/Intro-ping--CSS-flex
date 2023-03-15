@@ -9,32 +9,34 @@
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 <body>
-   <div class="container" role="main">
+   <div class="container">
       <header>
-        <div class="logo">
-          <img src="./images/logo.svg" alt="">
+        <div role="banner">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <h1>We are launching <b>soon!</b></h1>
+          <p>Subscribe and get notified</p>
         </div>
-        <h1>We are launching <b>soon!</b></h1>
-        <p>Subscribe and get notified</p>
       </header>
       
       <form action="#" aria-roledescription="form">
-        <input type="email" name="email" id="email" placeholder="Your email address...">
-        <small></small>
-       <button type="submit" class="btn" role="button"> Notify Me</button>
+        <input type="email" name="email" id="email" placeholder="Your email address..." aria-required="true">
+        <small aria-errormessage="please enter a valid email address"></small>
+       <button type="submit" class="btn"> Notify Me</button>
       </form>
 
-      <div class="image">
+      <div class="image" aria-hidden="true">
        
       </div>
      </section>
 
   <footer>
     
-    <div class="icons">
-    <a href="#" aria-label="social media link"><i class="fa-brands fa-facebook-f"></i></a>
-    <a href="#" aria-label="social media link"><i class="fa-brands fa-twitter"></i></a>
-    <a href="#" aria-label="social media link"><i class="fa-brands fa-instagram"></i></a>
+    <div class="icons" aria-label="link">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
     </div>
     <p class="coprright"> &copy; Copyright Ping. All rights reserved.</p>
 
